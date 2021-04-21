@@ -1,0 +1,20 @@
+{
+  "name": "app_daikokuya",
+  "version": "0.0.1",
+  "description": "SFCC Daikokuya Application",
+  "main": "index.js",
+  "scripts": {
+    "compiler:install": "node ./compile.js --install",
+    "compiler:build": "node ./compile.js --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/77Labs/ecom-daikokuya.git"
+  },
+  "author": "77Labs",
+  "dependencies": {
+    "fs-extra": "*",
+    "optionator": "^0.8.3",
+    "sgmf-scripts": "^2.4.0"
+  }
+}

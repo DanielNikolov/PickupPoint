@@ -1,0 +1,6 @@
+{
+	"int_pickuppoint" : {
+		"path" : "int_pickuppoint_sfra",
+		"build-cmd": "sgmf-scripts --compile js && sgmf-scripts --compile css"
+	}
+}

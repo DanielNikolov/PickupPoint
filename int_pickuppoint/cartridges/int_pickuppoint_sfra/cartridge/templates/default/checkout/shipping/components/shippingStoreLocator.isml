@@ -1,0 +1,11 @@
+<div class="col-12 shipping-store-locator d-none">
+    <div class="col-6 col-md-12 shipping-store-locator__zip">
+        <input type="text" class="" name="storeZip" value="Please enter store zip code">
+    </div>
+    <div class="col-12 shipping-store-locator__results">
+        <div class="col-6 col-md-12 shipping-store-locator__results__stores">
+        </div>
+        <div class="col-6 col-md-12 shipping-store-locator__results__map">
+        </div>
+    </div>
+</div>
