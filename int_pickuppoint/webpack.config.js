@@ -25,7 +25,7 @@ module.exports = [{
     name: 'js',
     entry: jsFiles,
     output: {
-        path: path.resolve('./cartridges/int_pickuppoint/cartridge/static'),
+        path: path.resolve('./cartridges/int_pickuppoint_sfra/cartridge/static'),
         filename: '[name].js'
     },
     resolve: {
@@ -66,7 +66,7 @@ module.exports = [{
     name: 'scss',
     entry: scssFiles,
     output: {
-        path: path.resolve('./cartridges/int_pickuppoint/cartridge/static'),
+        path: path.resolve('./cartridges/int_pickuppoint_sfra/cartridge/static'),
         filename: '[name].css'
     },
     module: {

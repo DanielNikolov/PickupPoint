@@ -1,7 +1,7 @@
 {
-  "name": "app_daikokuya",
+  "name": "PickupPoint",
   "version": "0.0.1",
-  "description": "SFCC Daikokuya Application",
+  "description": "PickupPoint Integration Package",
   "main": "index.js",
   "scripts": {
     "compiler:install": "node ./compile.js --install",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/77Labs/ecom-daikokuya.git"
+    "url": "git+https://github.com/DanielNikolov/PickupPoint.git"
   },
-  "author": "77Labs",
+  "author": "Daniel Nikolov",
   "dependencies": {
     "fs-extra": "*",
     "optionator": "^0.8.3",
