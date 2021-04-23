@@ -1,6 +1,7 @@
 # PickupPoint
 ## Prerequisites
 - You need to have SSH key added to your SFCC repository
+- Make sure you have valid Google Maps API key in your customer preferences despite not required for this implmentation as pickup point's map location is displayed in separate browser's tab.
 
 ## Steps
 - Checkout/Download the project
