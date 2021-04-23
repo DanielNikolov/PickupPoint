@@ -16,7 +16,7 @@ module.exports = {
                     dataType: 'json',
                     method: 'GET',
                     data: requestData,
-                    cached: false,
+                    cached: true,
                     success: function (response) {
                         $this.closest('.shipping-store-locator')
                             .find('.shipping-store-locator__results__stores')

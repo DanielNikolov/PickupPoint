@@ -13,6 +13,7 @@ function pickupPointService() {
             svc.addHeader('Content-Type', 'application/json');
             var serviceUrl = svc.getURL();
             serviceUrl = serviceUrl + '?zipCode=' + params.zipCode;
+            svc.getClient().enableCaching(3600);
             svc.setURL(serviceUrl);
         },
         parseResponse: function (svc, response) {
