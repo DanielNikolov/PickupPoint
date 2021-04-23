@@ -54,10 +54,6 @@ module.exports.aliasConfig = {
     base: path.resolve(
         process.cwd(),
         '../storefront-reference-architecture/cartridges/app_storefront_base/cartridge/client/default/'
-    ),
-    CustomPlugin: path.resolve(
-        process.cwd(),
-        '../plugin_wishlists/cartridges/plugin_wishlists/cartridge/client/default/'
     )
 }
 ```

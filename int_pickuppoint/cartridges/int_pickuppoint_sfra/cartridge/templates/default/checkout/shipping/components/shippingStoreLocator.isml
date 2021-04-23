@@ -1,11 +1,13 @@
-<div class="col-12 shipping-store-locator d-none">
+<div class="row mt-4 shipping-store-locator
+    ${shippingModel.selectedShippingMethod && shippingModel.selectedShippingMethod.ID !== '005' ? 'd-none' : ''}"
+    data-searchurl="${URLUtils.https('PickupPoint-List')}"
+>
     <div class="col-6 col-md-12 shipping-store-locator__zip">
-        <input type="text" class="" name="storeZip" value="Please enter store zip code">
+        <input type="text" class="" name="storeZip" placeholder="Please enter store zip code">
+        <button type="button" class="shipping-store-locator__search">Search</button>
     </div>
-    <div class="col-12 shipping-store-locator__results">
+    <div class="col-12 mt-4 shipping-store-locator__results">
         <div class="col-6 col-md-12 shipping-store-locator__results__stores">
-        </div>
-        <div class="col-6 col-md-12 shipping-store-locator__results__map">
         </div>
     </div>
 </div>

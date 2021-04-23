@@ -1,0 +1,8 @@
+@import "base/checkout/checkout";
+
+.shipping-store-locator {
+    &__results__stores {
+        height: 500px;
+        overflow-y: auto;
+    }
+}
